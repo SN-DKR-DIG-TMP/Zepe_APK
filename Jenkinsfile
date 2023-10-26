@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE_NAME = '10.0.0.40:5002/zepe-apk'
-        URL = ${DOCKER_REGISTRY_URL}
+        REGISTRY_URL = ${DOCKER_REGISTRY_URL}
     }
 
     stages {
@@ -24,7 +24,7 @@ pipeline {
         stage('Push Docker Image') {
             steps {
                 script {
-                    docker.withRegistry(URL, 'docker-registry') {
+                    docker.withRegistry(REGISTRY_URL, 'docker-registry') {
                         docker.image(DOCKER_IMAGE_NAME).push()
                     }
                 }
