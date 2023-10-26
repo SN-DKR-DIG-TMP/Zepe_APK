@@ -40,7 +40,7 @@
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>L'application&nbsp;</strong><br><strong>Zepe disponible au téléchargement</strong></h1>
                 
                 
-                <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="http://5.189.131.123/upload/app/zepe.apk">Télécharger</a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="http://5.189.131.123:8997/zepe.apk">Télécharger</a></div>
             </div>
         </div>
     </div>
